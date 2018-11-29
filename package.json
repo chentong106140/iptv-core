@@ -1,7 +1,7 @@
 {
-  "name": "iptv-core",
+  "name": "morgan-iptv-core",
   "version": "1.0.1",
-  "description": "电视端核心代码",
+  "description": "电视端基础库",
   "main": "index.js",
   "scripts": {
     "dev": "webpack --config webpack.dev.js",
