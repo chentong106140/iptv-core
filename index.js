@@ -18,7 +18,7 @@
         //{"[object Function]":"function","[object Boolean]":"boolean",}
         class2type = {},
         // 定义当前版本
-        core_version = version,
+        core_version = '1.0.1',
         // 其次，这里定义了一个空的数组对象 ，如果下文行文需要调用数组对象的 concat 、push 、slice 、indexOf 方法
         // 将会调用 core_concat 、core_push 、core_slice 、和 core_indexOf ，这四个变量事先存储好了这四个方法的入口
         // 同时使用 call 或 apply 调用这些方法也可以使类数组也能用到数组的方法
